@@ -48,7 +48,7 @@ function agregarCarrito(){
 
     localStorage.setItem("productos_carrito", JSON.stringify(carrito))
     if ( stock){
-       window.location.href = "file:///C:/Users/usuario/Desktop/TRABAJOS%20DE%20LA%20UNIVERSIDAD/web%20estatica%20y%20laboratorio%20web/trabajo%20final/pagina_principal/carrito/carrito.html" 
+       window.location.href = "../../carrito/carrito.html" 
     }
     
 }
