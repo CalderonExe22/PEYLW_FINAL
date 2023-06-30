@@ -1,0 +1,146 @@
+
+
+#cuerpo
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#producto,#titulo_descripcion
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    color: #259c25;
+    border: 3px solid #259c25;
+}
+
+#presentacion
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 3px;
+    background-color: white;
+    padding: 10px;
+    border:2px solid rgb(37, 156, 37);
+    border-radius: 10px ;
+    margin: 10px;
+}
+
+#datos
+{
+    display: flex;
+    flex-direction: column;
+    border-left: 5px solid rgb(37, 156, 37);
+    color: rgb(37, 156, 37);
+    padding: 50px;
+}
+
+.imagen_producto
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cantidad_art_mas,#cantidad_art_menos
+{
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+#botones
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton_comprar,.boton_agregar_carrito
+{
+    background-color:#259c25;
+    color: white;
+    font-size: x-large;
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    border: 0;
+    text-align: center;
+    margin-top: 50px;
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+.nombre_producto
+{
+    font-size: x-large;
+}
+
+#precio
+{
+    display: block;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+#cantidad_productos
+{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.boton_comprar:hover,.boton_agregar_carrito:hover
+{
+    background-color:rgb(32, 117, 32) ;
+}
+
+#agregar_favorito
+{
+    margin-top: 50px;
+}
+
+#agregar_favoritos
+{
+    color: rgb(34, 135, 34);
+    font-size: x-large;
+}
+
+#agregar_favoritos:hover{
+    color: #278127;
+}
+
+
+#descripcion
+{
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(37, 156, 37);
+}
+
+.link:hover 
+{
+    color: rgb(19, 56, 19);
+    text-decoration:underline;
+}
+
+.link
+{
+    color: rgb(37, 156, 37);
+    text-decoration: none;
+    padding: 5px;
+    position: relative;
+    transition:all 300ms;
+}
