@@ -1,0 +1,50 @@
+
+
+
+#cuerpo
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#favoritos
+{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+}
+
+#titulo
+{
+    display: flex;
+    justify-content: center;
+    color: #259c25;
+    padding: 10px;
+    background-color: white;
+    border: 3px solid #259c25;
+}
+
+.img-favoritos
+{
+    width: 220px;
+    height: 220px;
+}
+
+.botonEliminar,.botonCarrito
+{
+    border: 0;
+    padding: 5px;
+    font-size: large;
+    background-color: #259c25;
+    cursor: pointer;
+    width: 150px;
+    color: white;
+    height: 40px;
+    transition: all 250ms;
+}
+
+.botonEliminar:hover,.botonCarrito:hover
+{
+    background-color: #237c23;
+}

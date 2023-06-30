@@ -1,0 +1,48 @@
+
+#menu-horizontal
+{
+    list-style: none;
+    transition: all 300ms;
+    margin: 0;
+    padding: 0;
+}
+#menu-horizontal li a
+{
+    display: block;
+    color: rgb(37, 156, 37);
+    text-decoration: none;
+}
+
+
+#menu-vertical
+{
+    position: absolute;
+    display: none;
+    list-style-type: none;
+    background-color: white;
+    padding: 0;
+}
+
+#boton_catalogo
+{
+    background-color: none;
+    border: 0;
+    cursor: pointer;
+    transition: all 200ms;
+}
+
+
+
+#menu-vertical li:hover
+{
+    transition: all 300ms;
+    background-color: black;
+}
+
+#menu-vertical li a{
+    display: block;
+    justify-content: left;
+    color: rgb(37, 156, 37);
+    margin-top: 20px;
+    padding: 10px;
+}

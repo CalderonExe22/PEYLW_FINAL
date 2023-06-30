@@ -1,0 +1,128 @@
+
+/***************************************************************************************************************************/
+.img_producto
+{
+    height:250px;
+    width:250px;
+}
+
+#cuerpo
+{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 25% auto ;
+    gap: 5px;
+}
+
+
+#consola
+{
+    position: relative;
+    border: 5px solid rgb(37, 156, 37) ;
+    background-color: white ;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#filtro_precios
+{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 80px;
+}
+
+#precio_desde,#precio_hasta
+{
+    width: 50px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid rgb(37, 156, 37) ;
+    outline: none;
+}
+
+#aplicar
+{
+    border: 0;
+    color: white;
+    background-color: rgb(37, 156, 37);
+    cursor: pointer;
+    margin-left: 10px;
+    transition: all 200ms;
+}
+
+#limpiar
+{
+    position: absolute;
+    top:0;
+    right:0;
+    margin: 5px;
+    border: 0;
+    cursor: pointer;
+    background-color: rgb(37, 156, 37);
+    color: white;
+    padding: 5px;
+    transition: all 200ms;
+}
+
+#limpiar:hover,#aplicar:hover
+{
+    background-color: rgb(29, 129, 29);
+}
+
+#filtro_marca
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 80px;
+}
+
+#articulos
+{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    padding-left: 50px;
+    gap: 30px;
+}   
+
+.productos .img_producto
+{
+    border-radius: 8px 8px 0 0 ;
+}
+
+.productos
+{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px ;
+    width: 250px;
+    text-align: center;
+    box-shadow: 5px 5px 20px black;
+    transition: all 300ms;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.descripcion_producto
+{
+    background-color: white;
+    margin-top: 3px;
+    border-radius: 8px;
+}
+
+.precio
+{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.descripcion
+{
+    font-size: x-small;
+}
+
+
+/*******************************************************************************************************************************************************************/
