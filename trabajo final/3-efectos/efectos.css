@@ -33,3 +33,10 @@
     transform: scale(1.15);
     box-shadow: 5px 5px 20px rgb(37, 156, 37); 
 }
+
+/*****************************************************************************/
+
+#cantidad_art_mas:hover,#cantidad_art_menos:hover
+{
+    background-color: rgb(130, 187, 130);
+}

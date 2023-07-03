@@ -61,7 +61,12 @@
     align-items: center;
 }
 
-.boton_comprar,.boton_agregar_carrito
+.boton_comprar
+{
+    display: none;
+}
+
+.boton_agregar_carrito
 {
     background-color:#259c25;
     color: white;
